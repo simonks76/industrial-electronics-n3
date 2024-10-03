@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Electronics N3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #FF6347, #FFA07A); /* Red to Orange */
+            color: black;
+            overflow-y: scroll;
+        }
+        header {
+            background: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-weight: bold;
+        }
+        h2 {
+            color: #FF6347; /* Red color */
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        p {
+            margin: 15px 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .glow {
+            animation: glow 0.5s;
+        }
+        @keyframes glow {
+            0% { text-shadow: 0 0 5px #FF6347; }
+            100% { text-shadow: 0 0 20px #FF6347; }
+        }
+        footer {
+            background: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .search-bar {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><strong>Industrial Electronics N3</strong></h1>
+        <p>Published on: <strong>October 3, 2024</strong></p>
+        <p>Created by: <strong>Katklego (Ghost) Simon</strong></p>
+        <p>Welcome! This website is designed to help you understand diodes and their applications. I care about your learning journey and hope you find this resource helpful!</p>
+    </header>
+
+    <div class="content">
+        <h2>The Diode</h2>
+        <p>Diodes are essential components in electronics, allowing current to flow in one direction while blocking it in the other.</p>
+
+        <h2 class="glow" onclick="location.href='rectifier.html'">The Rectifier</h2>
+        <h2 class="glow" onclick="location.href='clipper.html'">The Diode as a Clipper</h2>
+        <h2 class="glow" onclick="location.href='voltage_doubler.html'">The Voltage Doubler</h2>
+        <h2 class="glow" onclick="location.href='zener_diode.html'">Zener Diode</h2>
+        <h2 class="glow" onclick="location.href='varactor_diode.html'">Varactor Diode</h2>
+        <h2 class="glow" onclick="location.href='photo_diode.html'">Photo Diode</h2>
+        <h2 class="glow" onclick="location.href='led.html'">LED</h2>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+    </div>
+
+    <footer>
+        <p>Contact: 0735193605 | Email: simonseekoei76@gmail.com</p>
+    </footer>
+</body>
+</html>
